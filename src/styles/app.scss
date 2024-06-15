@@ -6,7 +6,6 @@
 @import "mediaquery";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -33,7 +32,6 @@ a {
 .green {
   color: rgb(0, 195, 0);
 }
-
 
 .admin-container {
   @include grid(1fr 4fr, 2rem);
@@ -179,7 +177,7 @@ a {
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: rgb(168, 2, 2);
+  background-color: rgb(168, 2, 2, 0.5);
   color: white;
   border-radius: 10px;
 }
